@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&family=Kaushan+Script&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+
+
+
+body{
+  background-color: #000000;
+}
+
+header, img{
+  width: 100%;
+  height: 380px;
+}
+nav{
+  width: 30%;
+  height: 450px;
+  background-color: #000000;
+  float: left;
+  padding: 15px;
+  font: 3.5rem 'Sora',sans-serif;
+  color: FFF;
+  line-height: 2.0;
+  style:text-decoration: none;
+}
+
+article{
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+a{
+  color: white;
+  font: 3.5rem 'Roboto' ,cursive;
+}
+p{
+  font: 2.1rem 'Roboto' ,cursive;
+  color: white;
+}
+
+
+
+h2{
+   font: 2.0rem 'Sora',sans-serif;
+   color: white;
+}
+
+p{
+
+}
+
+h3{
+     font: 1.5rem 'Sora',sans-serif;
+     color: white;
+     text-align: center;
+}
+
+
+
+#carros{
+  background-color: #000;
+}
+
+#container{
+  display: flex;
+  margin-top: 15px;
+}
+
+.card{
+  background-color: #000000;
+  margin: 10px;
+  width: 25%;
+  border-radius: 10px;
+  transition: 0.5s;
+
+}
+
+.card:hover{
+  box-shadow: 0 4px 8px #CCC;
+}
+
+.card-content{
+  padding: 10px;
+}
+
+.card-content p{
+    font:1rem 'Roboto', sans-serif;
+  color: #FFF;
+  text-indent: 20px;
+  line-height: 20px;
+}
+
+#spaceships{
+  background-color: #000;
+}
+
+#container-space{
+    display: flex;
+  margin-top: 15px;
+
+}
+
+.card{
+  background-color: #000000;
+  margin: 11px;
+  width: 25%;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+#pag-reparo{
+  background-color: FFF;
+}
+
+#pag-reparo p{
+  text-align: right;
+  margin-bottom: 20px;
+  font: ;
+  color: ghostwhite;
+}
+
+form{
+  width: 400px;
+  margin: 0 auto;
+  background-color: grey; 
+}
+
+input, select, textarea{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 12px;
+  padding-left: 6px;
+  box-sizing: border-box;
+  border: 1px solid #f5f2f2;
+ 
+}
+
+label, fieldset , input, select , textarea{
+  font:1rem 'Roboto', sans-serif;
+  color: #000000;
+}
+
+fieldset{
+   border: 1px solid #C4C4C4;
+   margin-bottom: 10px;
+   padding: 10px;
+}
+
+input[type="checkbox"]{
+  width: 15px;
+  height: 15px;
+  margin-left: 50px;
+}
+
+textarea{
+  height: 80px;
+}
+
+#botoes-form{
+  display: flex;
+}
+
+input[type=submit], input[type="reset"] {
+  margin: 20px;
+  background-color: #hotpink;
+  border: 0;
+}
+
+input[type="reset"]{
+  background-color: #;
+}
+
+#bt-topo{
+  width: 70px;
+  height: 70px;
+  background-color: #FFF;
+  border-radius: 35px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+footer p{
+  text-align: left;
+  color: #FFF;
+  font-size: 1.5rem;
+}
+footer a{
+  color: #FFF;
+  font-size: 1.5rem;
+}
+
+footer a:hover{
+  color: darkblue;
+}
